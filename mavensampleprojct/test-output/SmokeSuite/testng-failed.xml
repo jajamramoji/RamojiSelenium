@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.project.mavensampleprojct.TC_004">
+        <methods>
+          <include name="endProcess"/>
+          <include name="startProcess"/>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- com.project.mavensampleprojct.TC_004 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="com.project.mavensampleprojct.TC_004">
+        <methods>
+          <include name="endProcess"/>
+          <include name="startProcess"/>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- com.project.mavensampleprojct.TC_004 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.project.mavensampleprojct.TC_004">
+        <methods>
+          <include name="endProcess"/>
+          <include name="startProcess"/>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- com.project.mavensampleprojct.TC_004 -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

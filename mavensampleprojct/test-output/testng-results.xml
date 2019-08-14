@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46106" started-at="2019-08-14T11:15:52Z" finished-at="2019-08-14T11:16:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46106" started-at="2019-08-14T11:15:52Z" finished-at="2019-08-14T11:16:39Z">
+      <class name="com.project.mavensampleprojct.TC_005">
+        <test-method status="PASS" signature="startProcess()[pri:0, instance:com.project.mavensampleprojct.TC_005@25af5db5]" name="startProcess" is-config="true" duration-ms="38469" started-at="2019-08-14T11:15:52Z" finished-at="2019-08-14T11:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="autoRegistration()[pri:0, instance:com.project.mavensampleprojct.TC_005@25af5db5]" name="autoRegistration" duration-ms="7618" started-at="2019-08-14T11:16:31Z" finished-at="2019-08-14T11:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoRegistration -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.project.mavensampleprojct.TC_005@25af5db5]" name="endProcess" is-config="true" duration-ms="0" started-at="2019-08-14T11:16:39Z" finished-at="2019-08-14T11:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.project.mavensampleprojct.TC_005 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
